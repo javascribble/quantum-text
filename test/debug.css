@@ -2,3 +2,7 @@ body {
     visibility: hidden;
     margin: 0;
 }
+
+quantum-text {
+    --padding: 0.7em 1em;
+}
