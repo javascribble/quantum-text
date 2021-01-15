@@ -1,1 +1,3 @@
-export * from './elements/text.js';
+import * as text from './elements/text.js';
+
+Object.assign(window, text);
