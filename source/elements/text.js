@@ -1,5 +1,7 @@
 import html from '../templates/text.js';
 
+const { Component, template, define } = quantum;
+
 export class Text extends Component {
     constructor() {
         super();
