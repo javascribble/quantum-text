@@ -1,13 +1,9 @@
 import html from '../templates/text.js';
 
-const { Component, template, define } = quantum;
-
-export class Text extends Component {
+export class Text extends Quantum {
     constructor() {
         super();
     }
-
-    static template = template(html);
 }
 
-define('quantum-text', Text);
+Text.define('quantum-text', html);
