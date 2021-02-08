@@ -1,3 +1,1 @@
-import { Text } from './elements/text.js';
-
-Quantum.Text = Text;
+import './elements/text.js';
