@@ -1,7 +1,7 @@
 {
     "name": "@javascribble/quantum-text",
     "description": "",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "license": "MIT",
     "dependencies": {
         "@javascribble/quantum": "^1.5.0"
@@ -10,7 +10,7 @@
         "live-server": "*"
     },
     "scripts": {
-		"build": "cd ../rollup-quantum-build && npm start ../quantum-text/source/main.js ../quantum-text/build",
+        "build": "cd ../rollup-quantum-build && npm start ../quantum-text/source/main.js ../quantum-text/build",
         "start": "live-server --open=/test/debug.html",
         "postversion": "npm publish --access public"
     },
